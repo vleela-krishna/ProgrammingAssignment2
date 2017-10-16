@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Added on 16/10/2017
+## makeCachematrix function
 
 makeCacheMatrix <- function(x = matrix()) {
   # holds the cached value or NULL if nothing is cached
@@ -34,8 +36,9 @@ makeCacheMatrix <- function(x = matrix()) {
   list(setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, getInverse = getInverse)
 }
 
-
+## Added on 16/10/2017
 ## Write a short comment describing this function
+##CacheSolve Function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
